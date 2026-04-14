@@ -1,0 +1,20 @@
+{
+  "suppliers": [
+    {
+      "supplier_id": "sup-1",
+      "name": "Global Pay",
+      "category": "payment",
+      "countries": ["ru", "ae"],
+      "documents": ["profile.pdf", "tax_id.pdf"],
+      "flags": ["sensitive_access"]
+    },
+    {
+      "supplier_id": "sup-2",
+      "name": "Brand OEM",
+      "category": "manufacturing",
+      "countries": ["ru"],
+      "documents": ["profile.pdf", "tax_id.pdf", "brand_guidelines.pdf"],
+      "flags": ["white_label"]
+    }
+  ]
+}
